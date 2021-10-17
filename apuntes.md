@@ -3,7 +3,7 @@
 + [Repositorio en GitHub del Autor](https://github.com/carloscdev/udemy-vue3-rick-and-morty)
 + [Demo del autor](https://udemy-vue3-rick-and-morty.netlify.app)
 + [Mi repositorio GitHub](https://github.com/petrix12/vue3_rick_and_morty_api_2021.git)
-+ [Mi demo](https://solucionespp-rick-and-morty.netlify.app)
++ [Mi demo](https://vue3-rick-and-morty.netlify.app)
 1. Crear proyecto:
     + $ vue create 99rick-and-morty
     + Seleccionar: Manually select features
@@ -368,17 +368,21 @@
     }
     </style>
     ```
-11. Crear proyecto en la página de [GitHub](https://github.com) con el nombre: **vue3_rick_and_morty_api_2021**.
+11. Compilar el proyecto para producción:
+    + $ npm run build
+12. Crear proyecto en la página de [GitHub](https://github.com) con el nombre: **vue3_rick_and_morty_api_2021**.
     + **Description**: Proyecto para seguir el curso de Udemy Vue 3 - Composition API, Vuex, API Rest - Rick And Morty de Carlos Córdova. URL: https://www.udemy.com/course/vue-3-composition-api-vuex-api-rest-rick-and-morty.
     + **Public**.
-12. En la ubicación raíz del proyecto en la terminal de la máquina local:
+13. En la ubicación raíz del proyecto en la terminal de la máquina local:
     + $ git init
     + $ git add .
     + $ git commit -m "Rick And Morty"
     + $ git branch -M main
     + $ git remote add origin https://github.com/petrix12/vue3_rick_and_morty_api_2021.git
     + $ git push -u origin main
-13. Ir a la página de [netlify](https://www.netlify.com), iniciar sesión e ir a **Site**.
-14. Arrastrar la carpeta para distribución **99rick-and-morty** en la página de netlify.
-15. Ir a **Site settings** y luego a **Change site name** y cambiar el **Site name** a **solucionespp-rick-and-morty**.
+14. Ir a la página de [netlify](https://www.netlify.com), iniciar sesión e ir a **Site**.
+15. Hacer clic en **New site from Git** y buscar el repositorio que acabamos de crear en **GitHub**.
+16. Seleccionamos nuestro repositorio de **GitHub** y damos clic en **Deploy site**.
+    + **Nota**: este proceso puede tardar unos minutos.
+17. Ir a **Site settings** y luego a **Change site name** y cambiar el **Site name** a **vue3-rick-and-morty**.
     + **Nota**: ahora podemos ver nuestra aplicación en producción en: https://solucionespp-rick-and-morty.netlify.app
